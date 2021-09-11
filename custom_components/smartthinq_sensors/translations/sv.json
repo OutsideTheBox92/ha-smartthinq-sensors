@@ -1,0 +1,43 @@
+{
+    "config": {
+        "abort": {
+            "single_instance_allowed": "Endast en konfiguration av SmartThinQ LGE Sensors är tillåtet.",
+            "no_smartthinq_devices": "Inga SmartThinQ enheter funna. Komponentinstallation avbruten."
+        },
+        "error": {
+            "error_url": "Fel vid hämtning av inloggnings-URL från ThinQ.",
+            "invalid_region": "Ogiltigt regionformat.",
+            "invalid_language": "Ogiltigt språkformat.",
+            "invalid_url": "Ogiltig omdirigerings-URL. Säkerställ att du har tillgång till ThinQ-appen på din telefon. Du kan få support [här](https://git.io/JTjid).",
+            "invalid_credentials": "Ogiltiga SmartThinQ-inloggningsuppgifter. Försök igen och säkerställ att du har tillgång till ThinQ-appen på din telefon"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "region": "Landskod",
+                    "language": "Språkkod",
+                    "use_tls_v1": "Tvinga användning av TLSv1-protokoll (ibland obligatoriskt)",
+                    "exclude_dh": "Använd inte DH kryptering (ihändelse av 'dh key too small' felmeddelande)"
+                },
+                "description": "Välj ditt SmartThinQ kontos språkinformation.",
+                "title": "SmartThinQ LGE Sensors"
+            },
+            "url": {
+                "data": {
+                    "login_url": "SmartThinQ inloggnings-URL",
+                    "callback_url": "Omdirigerings-URL"
+                },
+                "description": "Använd URL-en i det första fältet för att logga in till SmartThinQ med dina inloggningsuppgifter. Klistra sedan in den URL dit webbläsaren blir dirigerad i det andra fältet. Dela feedback om installationen [här](https://git.io/JU166).",
+                "title": "SmartThinQ LGE Sensors - Autentisering"
+            },
+            "token": {
+                "data": {
+                    "token": "Uppdatera Token"
+                },
+                "description": "Spara din genererade token för framtida bruk. Bekräfta sedan för att slutföra installationen.",
+                "title": "SmartThinQ LGE Sensors - Ny uppdatering för token"
+            }
+        },
+        "title": "SmartThinQ LGE Sensors"
+    }
+}
